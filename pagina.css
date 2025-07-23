@@ -1,0 +1,379 @@
+
+*{
+    margin:0;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    font-size: 31px;
+    color: white;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    height: 50px;
+    font-family: Helvetica Bold;
+    padding-top: 9px;
+   
+    
+}
+
+
+
+
+
+
+
+
+#p{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.primeraparte{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:21rem;
+    margin-right:15rem;
+    margin-top: 18px;
+   
+    
+    
+   
+    
+}
+
+.señor{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 24rem;
+}
+
+
+
+.texto1{
+    margin-top:6rem;
+    
+}
+
+#quien{
+    font-size: 64px;
+    margin-top: 3rem;
+    color: rgb(253, 82, 3);
+}
+
+#lorem98{
+    font-size: 24px;
+}
+
+
+
+
+#boton{
+    background-color:  rgb(253, 82, 3);
+    font-size: 14px;
+    margin-top: 0.7rem;
+    width: 5rem;
+    height: 2rem;
+    color:  rgb(235, 235, 235);
+}
+
+.segundaparte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.7rem;
+    background-color: rgb(253, 82, 3);
+    height: 37rem;
+    
+    
+   
+}
+
+.señorx{
+    margin-top: 1px;
+}
+
+#lorem99{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(235, 235, 235);
+}
+
+#nombre2{
+    margin-top: 1rem;
+    font-size: 28px;
+    color: rgb(235, 235, 235);
+}
+
+
+#misproyectos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 49px;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.terceraparte {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 4rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border: 1px solid rgb(221, 220, 220); 
+    align-items: center;
+   
+
+    
+  }  
+
+  #linea {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #linea2 {
+
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #linea3 {
+
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #linea4 {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #textos {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 36px;
+    margin-right: 35px;
+    text-align: center;
+    font-family: arial;
+  }
+
+
+   .letra{
+    font-size: 24px;
+    font-family: arial;
+   }
+
+
+  #botones {
+    border: 1px solid black;
+    margin-left: 59px;
+    background-color: rgb(253, 82, 3);
+    color: rgb(221, 220, 220);
+    height: 32px;
+    width: 8rem;
+  }
+
+
+.esc{
+ 
+  display:flex;
+  justify-content: end;
+  background-color: black;
+  font-size: 29px;
+  color: white;
+}
+
+
+
+@media ( max-width: 768px) {
+     
+
+
+
+
+  
+    .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+  
+
+
+   .primeraparte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0;
+        padding: 0;
+    }
+
+.texto1{
+  margin-right: 4rem;
+  
+}
+    
+
+.body{
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+}
+      
+ .señor{
+
+  padding-right: 6rem;
+ }   
+
+.segundaparte{
+  width: 41rem;
+ 
+}
+
+
+
+
+
+    
+}
+
+
+
+
+
+@media (max-width: 1366px){
+
+.primeraparte {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+
+
+
+    #quien{
+        font-size: 5rem;
+       margin-left: 1rem;
+        color: rgb(253, 82, 3);
+       
+    }
+
+
+    #lorem98{
+       
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        
+    }
+
+
+    #boton{
+        margin-left: 2rem;
+        margin-top: 19px;
+    }
+
+
+.señorx{
+    margin-top: 5rem;
+}
+
+
+.segundaparte{
+
+    height: auto;
+}
+
+
+
+
+
+.terceraparte {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+        grid-gap: 1rem;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+
+
+
+
+
+
+
+
+
+
+      #botones{
+        margin-left: 2rem;
+      }
+
+
+
+
+}
+
+
